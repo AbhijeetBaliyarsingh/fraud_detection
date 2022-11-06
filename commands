@@ -10,6 +10,12 @@ pwd - present working directory
 
 echo "# fraud_detection" >> README.md #This command create a readme file and adds # fraud detection as contents in the file.
 git init
+
+git config --global user.name <yourusername>  # Using this, you will enter your GitHub username
+
+git config --global user.email <youremail@example.com>  # Using this, you will enter your GitHub username
+
+
 git add README.md
 git commit -m "first commit"
 git branch
